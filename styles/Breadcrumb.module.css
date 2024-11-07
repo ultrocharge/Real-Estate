@@ -1,0 +1,13 @@
+.breadcrumbBg {
+  background-image: url("../assets/img/14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 44vh;
+}
+@media (max-width: 768px) {
+  .breadcrumbBg {
+    height: 30vh;
+    background-position: right;
+  }
+}

@@ -1,0 +1,24 @@
+.slick-next {
+  right: 15px;
+  z-index: 11;
+}
+.slick-prev {
+  left: 15px;
+  z-index: 11;
+}
+.slick-next::before,
+.slick-prev::before {
+  color: rgb(239 68 68 / 1);
+  font-size: 35px;
+  opacity: 1;
+}
+.slick-title {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+@media (max-width: 768px) {
+  .slick-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
