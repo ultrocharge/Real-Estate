@@ -3,6 +3,7 @@ import Hero from "../components/home/Hero";
 import About from "../components/home/About";
 import Counters from "../components/home/Counters";
 import MainFocus from "../components/home/MainFocus";
+import FeaturedListings from "../components/home/FeaturedListings";
 export default function Home() {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Counters />
       <MainFocus />
+      <FeaturedListings />
     </div>
   );
 }
