@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/home/Hero";
 import About from "../components/home/About";
 import Counters from "../components/home/Counters";
+import MainFocus from "../components/home/MainFocus";
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <About />
       <Counters />
+      <MainFocus />
     </div>
   );
 }
