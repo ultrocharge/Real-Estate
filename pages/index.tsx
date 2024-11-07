@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/home/Hero";
 import About from "../components/home/About";
+import Counters from "../components/home/Counters";
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <Counters />
     </div>
   );
 }
