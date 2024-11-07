@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Hero from "../components/home/Hero";
 export default function Home() {
   return (
     <div>
@@ -10,6 +10,7 @@ export default function Home() {
           content="Real Estate Site My Oliver Elias. Home"
         />
       </Head>
+      <Hero />
     </div>
   );
 }
