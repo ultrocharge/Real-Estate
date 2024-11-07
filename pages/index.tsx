@@ -5,6 +5,7 @@ import Counters from "../components/home/Counters";
 import MainFocus from "../components/home/MainFocus";
 import FeaturedListings from "../components/home/FeaturedListings";
 import OurAminities from "../components/home/OurAminities";
+import OurTestimonial from "../components/home/OurTestimonial";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <MainFocus />
       <FeaturedListings />
       <OurAminities />
+      <OurTestimonial />
     </div>
   );
 }
