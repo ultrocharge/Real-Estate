@@ -12,3 +12,4 @@ Real-Estate is a modern web application built using **Next.js** and **TypeScript
 - **Next.js**
 - **TypeScript**
 - **TailwindCSS**
+- **Styled Components**
